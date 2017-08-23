@@ -1,7 +1,7 @@
 {
   "name": "nestjs-dummy-module",
   "author": "Eric Lara <ericzon@gmail.com>",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Example of dummy module working with NestJs",
   "main": "dist/index.js",
   "scripts": {
