@@ -1,11 +1,13 @@
 {
   "name": "nestjs-dummy-module",
   "author": "Eric Lara <ericzon@gmail.com>",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Example of dummy module working with NestJs",
   "main": "dist/index.js",
   "scripts": {
     "prepare": "npm run build",
+    "prepublishOnly": "npm run clean && npm run build",
+    "clean": "rm -rf dist",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
